@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E70937018E1B9DC0031420C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70936F18E1B9DC0031420C /* Foundation.framework */; };
+		7E70937518E1B9DC0031420C /* AWELibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E70937418E1B9DC0031420C /* AWELibrary.h */; };
+		7E70937718E1B9DC0031420C /* AWELibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E70937618E1B9DC0031420C /* AWELibrary.m */; };
+		7E70937E18E1B9DC0031420C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70937D18E1B9DC0031420C /* XCTest.framework */; };
+		7E70937F18E1B9DC0031420C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70936F18E1B9DC0031420C /* Foundation.framework */; };
+		7E70938118E1B9DC0031420C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70938018E1B9DC0031420C /* UIKit.framework */; };
+		7E70938418E1B9DC0031420C /* libAWELibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70936C18E1B9DC0031420C /* libAWELibrary.a */; };
+		7E70938A18E1B9DC0031420C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E70938818E1B9DC0031420C /* InfoPlist.strings */; };
+		7E70938C18E1B9DC0031420C /* AWELibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E70938B18E1B9DC0031420C /* AWELibraryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E70938218E1B9DC0031420C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E70936418E1B9DC0031420C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E70936B18E1B9DC0031420C;
+			remoteInfo = AWELibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E70936A18E1B9DC0031420C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7E70937518E1B9DC0031420C /* AWELibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E70936C18E1B9DC0031420C /* libAWELibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAWELibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E70936F18E1B9DC0031420C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E70937318E1B9DC0031420C /* AWELibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWELibrary-Prefix.pch"; sourceTree = "<group>"; };
+		7E70937418E1B9DC0031420C /* AWELibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWELibrary.h; sourceTree = "<group>"; };
+		7E70937618E1B9DC0031420C /* AWELibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWELibrary.m; sourceTree = "<group>"; };
+		7E70937C18E1B9DC0031420C /* AWELibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWELibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E70937D18E1B9DC0031420C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7E70938018E1B9DC0031420C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E70938718E1B9DC0031420C /* AWELibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AWELibraryTests-Info.plist"; sourceTree = "<group>"; };
+		7E70938918E1B9DC0031420C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E70938B18E1B9DC0031420C /* AWELibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWELibraryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E70936918E1B9DC0031420C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E70937018E1B9DC0031420C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E70937918E1B9DC0031420C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E70937E18E1B9DC0031420C /* XCTest.framework in Frameworks */,
+				7E70938118E1B9DC0031420C /* UIKit.framework in Frameworks */,
+				7E70937F18E1B9DC0031420C /* Foundation.framework in Frameworks */,
+				7E70938418E1B9DC0031420C /* libAWELibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E70936318E1B9DC0031420C = {
+			isa = PBXGroup;
+			children = (
+				7E70937118E1B9DC0031420C /* AWELibrary */,
+				7E70938518E1B9DC0031420C /* AWELibraryTests */,
+				7E70936E18E1B9DC0031420C /* Frameworks */,
+				7E70936D18E1B9DC0031420C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E70936D18E1B9DC0031420C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E70936C18E1B9DC0031420C /* libAWELibrary.a */,
+				7E70937C18E1B9DC0031420C /* AWELibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E70936E18E1B9DC0031420C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E70936F18E1B9DC0031420C /* Foundation.framework */,
+				7E70937D18E1B9DC0031420C /* XCTest.framework */,
+				7E70938018E1B9DC0031420C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E70937118E1B9DC0031420C /* AWELibrary */ = {
+			isa = PBXGroup;
+			children = (
+				7E70937418E1B9DC0031420C /* AWELibrary.h */,
+				7E70937618E1B9DC0031420C /* AWELibrary.m */,
+				7E70937218E1B9DC0031420C /* Supporting Files */,
+			);
+			path = AWELibrary;
+			sourceTree = "<group>";
+		};
+		7E70937218E1B9DC0031420C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E70937318E1B9DC0031420C /* AWELibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E70938518E1B9DC0031420C /* AWELibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E70938B18E1B9DC0031420C /* AWELibraryTests.m */,
+				7E70938618E1B9DC0031420C /* Supporting Files */,
+			);
+			path = AWELibraryTests;
+			sourceTree = "<group>";
+		};
+		7E70938618E1B9DC0031420C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E70938718E1B9DC0031420C /* AWELibraryTests-Info.plist */,
+				7E70938818E1B9DC0031420C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E70936B18E1B9DC0031420C /* AWELibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E70938F18E1B9DC0031420C /* Build configuration list for PBXNativeTarget "AWELibrary" */;
+			buildPhases = (
+				7E70936818E1B9DC0031420C /* Sources */,
+				7E70936918E1B9DC0031420C /* Frameworks */,
+				7E70936A18E1B9DC0031420C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWELibrary;
+			productName = AWELibrary;
+			productReference = 7E70936C18E1B9DC0031420C /* libAWELibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7E70937B18E1B9DC0031420C /* AWELibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E70939218E1B9DC0031420C /* Build configuration list for PBXNativeTarget "AWELibraryTests" */;
+			buildPhases = (
+				7E70937818E1B9DC0031420C /* Sources */,
+				7E70937918E1B9DC0031420C /* Frameworks */,
+				7E70937A18E1B9DC0031420C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E70938318E1B9DC0031420C /* PBXTargetDependency */,
+			);
+			name = AWELibraryTests;
+			productName = AWELibraryTests;
+			productReference = 7E70937C18E1B9DC0031420C /* AWELibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E70936418E1B9DC0031420C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = 5DLab;
+			};
+			buildConfigurationList = 7E70936718E1B9DC0031420C /* Build configuration list for PBXProject "AWELibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E70936318E1B9DC0031420C;
+			productRefGroup = 7E70936D18E1B9DC0031420C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E70936B18E1B9DC0031420C /* AWELibrary */,
+				7E70937B18E1B9DC0031420C /* AWELibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E70937A18E1B9DC0031420C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E70938A18E1B9DC0031420C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E70936818E1B9DC0031420C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E70937718E1B9DC0031420C /* AWELibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E70937818E1B9DC0031420C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E70938C18E1B9DC0031420C /* AWELibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E70938318E1B9DC0031420C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E70936B18E1B9DC0031420C /* AWELibrary */;
+			targetProxy = 7E70938218E1B9DC0031420C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E70938818E1B9DC0031420C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E70938918E1B9DC0031420C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E70938D18E1B9DC0031420C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E70938E18E1B9DC0031420C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E70939018E1B9DC0031420C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AWELibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWELibrary/AWELibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E70939118E1B9DC0031420C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AWELibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWELibrary/AWELibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7E70939318E1B9DC0031420C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWELibrary/AWELibrary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AWELibraryTests/AWELibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7E70939418E1B9DC0031420C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWELibrary/AWELibrary-Prefix.pch";
+				INFOPLIST_FILE = "AWELibraryTests/AWELibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E70936718E1B9DC0031420C /* Build configuration list for PBXProject "AWELibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E70938D18E1B9DC0031420C /* Debug */,
+				7E70938E18E1B9DC0031420C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E70938F18E1B9DC0031420C /* Build configuration list for PBXNativeTarget "AWELibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E70939018E1B9DC0031420C /* Debug */,
+				7E70939118E1B9DC0031420C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E70939218E1B9DC0031420C /* Build configuration list for PBXNativeTarget "AWELibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E70939318E1B9DC0031420C /* Debug */,
+				7E70939418E1B9DC0031420C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E70936418E1B9DC0031420C /* Project object */;
+}
