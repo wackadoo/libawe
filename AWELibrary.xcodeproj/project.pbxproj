@@ -6,16 +6,50 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		7E7093FD18E1D9520031420C /* AWELibraryExport */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7E7093FE18E1D9520031420C /* Build configuration list for PBXAggregateTarget "AWELibraryExport" */;
+			buildPhases = (
+				7E70941A18E2C3070031420C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AWELibraryExport;
+			productName = AWELibraryExport;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		7E70937018E1B9DC0031420C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70936F18E1B9DC0031420C /* Foundation.framework */; };
-		7E70937518E1B9DC0031420C /* AWELibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E70937418E1B9DC0031420C /* AWELibrary.h */; };
-		7E70937718E1B9DC0031420C /* AWELibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E70937618E1B9DC0031420C /* AWELibrary.m */; };
 		7E70937E18E1B9DC0031420C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70937D18E1B9DC0031420C /* XCTest.framework */; };
 		7E70937F18E1B9DC0031420C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70936F18E1B9DC0031420C /* Foundation.framework */; };
 		7E70938118E1B9DC0031420C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70938018E1B9DC0031420C /* UIKit.framework */; };
 		7E70938418E1B9DC0031420C /* libAWELibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70936C18E1B9DC0031420C /* libAWELibrary.a */; };
 		7E70938A18E1B9DC0031420C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E70938818E1B9DC0031420C /* InfoPlist.strings */; };
 		7E70938C18E1B9DC0031420C /* AWELibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E70938B18E1B9DC0031420C /* AWELibraryTests.m */; };
+		7E7093AA18E1BBF40031420C /* AWEAttributeHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E70939618E1BBF40031420C /* AWEAttributeHash.m */; };
+		7E7093AB18E1BBF40031420C /* AWEDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E70939818E1BBF40031420C /* AWEDateUtils.m */; };
+		7E7093AC18E1BBF40031420C /* AWEEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E70939A18E1BBF40031420C /* AWEEntity.m */; };
+		7E7093AD18E1BBF40031420C /* AWEEntityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E70939C18E1BBF40031420C /* AWEEntityManager.m */; };
+		7E7093AE18E1BBF40031420C /* AWEEntitySetProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E70939E18E1BBF40031420C /* AWEEntitySetProxy.m */; };
+		7E7093AF18E1BBF40031420C /* AWEI18n.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7093A018E1BBF40031420C /* AWEI18n.m */; };
+		7E7093B118E1BBF40031420C /* AWELog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7093A518E1BBF40031420C /* AWELog.m */; };
+		7E7093B218E1BBF40031420C /* AWEObservationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7093A718E1BBF40031420C /* AWEObservationManager.m */; };
+		7E7093B318E1BBF40031420C /* AWETimeCorrection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7093A918E1BBF40031420C /* AWETimeCorrection.m */; };
+		7E7093D718E1C18B0031420C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093D618E1C18B0031420C /* CFNetwork.framework */; };
+		7E7093D918E1C1AC0031420C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093D818E1C1AC0031420C /* CoreData.framework */; };
+		7E7093DF18E1C1E50031420C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093DA18E1C1E50031420C /* libxml2.dylib */; };
+		7E7093E018E1C1E50031420C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093DB18E1C1E50031420C /* MobileCoreServices.framework */; };
+		7E7093E118E1C1E50031420C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093DC18E1C1E50031420C /* QuartzCore.framework */; };
+		7E7093E218E1C1E50031420C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093DD18E1C1E50031420C /* Security.framework */; };
+		7E7093E318E1C1E50031420C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093DE18E1C1E50031420C /* SystemConfiguration.framework */; };
+		7E7093EA18E1CE550031420C /* ARCMSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7093E918E1CE550031420C /* ARCMSConfig.m */; };
+		7E70940F18E1E9020031420C /* libPods-RestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70940E18E1E9020031420C /* libPods-RestKit.a */; };
+		7E70941118E1E9080031420C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70941018E1E9080031420C /* libPods.a */; };
+		7E70941518E2BFC90031420C /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70941418E2BFC90031420C /* libPods-AFNetworking.a */; };
+		7E70941718E2BFCE0031420C /* libPods-SOCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70941618E2BFCE0031420C /* libPods-SOCKit.a */; };
+		7E70941918E2BFD50031420C /* libPods-TransitionKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70941818E2BFD50031420C /* libPods-TransitionKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,30 +63,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7E70936A18E1B9DC0031420C /* CopyFiles */ = {
+		7E70936A18E1B9DC0031420C /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				7E70937518E1B9DC0031420C /* AWELibrary.h in CopyFiles */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		600138A8A2CC4C57BCD401DC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E70936C18E1B9DC0031420C /* libAWELibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAWELibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E70936F18E1B9DC0031420C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E70937318E1B9DC0031420C /* AWELibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWELibrary-Prefix.pch"; sourceTree = "<group>"; };
-		7E70937418E1B9DC0031420C /* AWELibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWELibrary.h; sourceTree = "<group>"; };
-		7E70937618E1B9DC0031420C /* AWELibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWELibrary.m; sourceTree = "<group>"; };
 		7E70937C18E1B9DC0031420C /* AWELibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWELibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E70937D18E1B9DC0031420C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7E70938018E1B9DC0031420C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7E70938718E1B9DC0031420C /* AWELibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AWELibraryTests-Info.plist"; sourceTree = "<group>"; };
 		7E70938918E1B9DC0031420C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E70938B18E1B9DC0031420C /* AWELibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWELibraryTests.m; sourceTree = "<group>"; };
+		7E70939518E1BBF40031420C /* AWEAttributeHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEAttributeHash.h; sourceTree = "<group>"; };
+		7E70939618E1BBF40031420C /* AWEAttributeHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEAttributeHash.m; sourceTree = "<group>"; };
+		7E70939718E1BBF40031420C /* AWEDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEDateUtils.h; sourceTree = "<group>"; };
+		7E70939818E1BBF40031420C /* AWEDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEDateUtils.m; sourceTree = "<group>"; };
+		7E70939918E1BBF40031420C /* AWEEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEEntity.h; sourceTree = "<group>"; };
+		7E70939A18E1BBF40031420C /* AWEEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEEntity.m; sourceTree = "<group>"; };
+		7E70939B18E1BBF40031420C /* AWEEntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEEntityManager.h; sourceTree = "<group>"; };
+		7E70939C18E1BBF40031420C /* AWEEntityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEEntityManager.m; sourceTree = "<group>"; };
+		7E70939D18E1BBF40031420C /* AWEEntitySetProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEEntitySetProxy.h; sourceTree = "<group>"; };
+		7E70939E18E1BBF40031420C /* AWEEntitySetProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEEntitySetProxy.m; sourceTree = "<group>"; };
+		7E70939F18E1BBF40031420C /* AWEI18n.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEI18n.h; sourceTree = "<group>"; };
+		7E7093A018E1BBF40031420C /* AWEI18n.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEI18n.m; sourceTree = "<group>"; };
+		7E7093A118E1BBF40031420C /* AWELibrary-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWELibrary-Prefix.pch"; sourceTree = "<group>"; };
+		7E7093A418E1BBF40031420C /* AWELog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWELog.h; sourceTree = "<group>"; };
+		7E7093A518E1BBF40031420C /* AWELog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWELog.m; sourceTree = "<group>"; };
+		7E7093A618E1BBF40031420C /* AWEObservationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEObservationManager.h; sourceTree = "<group>"; };
+		7E7093A718E1BBF40031420C /* AWEObservationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEObservationManager.m; sourceTree = "<group>"; };
+		7E7093A818E1BBF40031420C /* AWETimeCorrection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWETimeCorrection.h; sourceTree = "<group>"; };
+		7E7093A918E1BBF40031420C /* AWETimeCorrection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWETimeCorrection.m; sourceTree = "<group>"; };
+		7E7093D618E1C18B0031420C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7E7093D818E1C1AC0031420C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7E7093DA18E1C1E50031420C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		7E7093DB18E1C1E50031420C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7E7093DC18E1C1E50031420C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E7093DD18E1C1E50031420C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7E7093DE18E1C1E50031420C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7E7093E818E1CE550031420C /* ARCMSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCMSConfig.h; sourceTree = "<group>"; };
+		7E7093E918E1CE550031420C /* ARCMSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCMSConfig.m; sourceTree = "<group>"; };
+		7E70940E18E1E9020031420C /* libPods-RestKit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-RestKit.a"; path = "Pods/build/Release-iphoneos/libPods-RestKit.a"; sourceTree = "<group>"; };
+		7E70941018E1E9080031420C /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		7E70941418E2BFC90031420C /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		7E70941618E2BFCE0031420C /* libPods-SOCKit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-SOCKit.a"; path = "Pods/build/Debug-iphoneos/libPods-SOCKit.a"; sourceTree = "<group>"; };
+		7E70941818E2BFD50031420C /* libPods-TransitionKit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-TransitionKit.a"; path = "Pods/build/Debug-iphoneos/libPods-TransitionKit.a"; sourceTree = "<group>"; };
+		F11F6D3B3D58408F8905A1D8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +127,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E70941918E2BFD50031420C /* libPods-TransitionKit.a in Frameworks */,
+				7E70941718E2BFCE0031420C /* libPods-SOCKit.a in Frameworks */,
+				7E70941518E2BFC90031420C /* libPods-AFNetworking.a in Frameworks */,
+				7E70941118E1E9080031420C /* libPods.a in Frameworks */,
+				7E70940F18E1E9020031420C /* libPods-RestKit.a in Frameworks */,
+				7E7093DF18E1C1E50031420C /* libxml2.dylib in Frameworks */,
+				7E7093E018E1C1E50031420C /* MobileCoreServices.framework in Frameworks */,
+				7E7093E118E1C1E50031420C /* QuartzCore.framework in Frameworks */,
+				7E7093E218E1C1E50031420C /* Security.framework in Frameworks */,
+				7E7093E318E1C1E50031420C /* SystemConfiguration.framework in Frameworks */,
+				7E7093D918E1C1AC0031420C /* CoreData.framework in Frameworks */,
+				7E7093D718E1C18B0031420C /* CFNetwork.framework in Frameworks */,
 				7E70937018E1B9DC0031420C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +164,7 @@
 				7E70938518E1B9DC0031420C /* AWELibraryTests */,
 				7E70936E18E1B9DC0031420C /* Frameworks */,
 				7E70936D18E1B9DC0031420C /* Products */,
+				F11F6D3B3D58408F8905A1D8 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +180,22 @@
 		7E70936E18E1B9DC0031420C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E70941818E2BFD50031420C /* libPods-TransitionKit.a */,
+				7E70941618E2BFCE0031420C /* libPods-SOCKit.a */,
+				7E70941418E2BFC90031420C /* libPods-AFNetworking.a */,
+				7E70941018E1E9080031420C /* libPods.a */,
+				7E70940E18E1E9020031420C /* libPods-RestKit.a */,
+				7E7093DA18E1C1E50031420C /* libxml2.dylib */,
+				7E7093DB18E1C1E50031420C /* MobileCoreServices.framework */,
+				7E7093DC18E1C1E50031420C /* QuartzCore.framework */,
+				7E7093DD18E1C1E50031420C /* Security.framework */,
+				7E7093DE18E1C1E50031420C /* SystemConfiguration.framework */,
+				7E7093D818E1C1AC0031420C /* CoreData.framework */,
+				7E7093D618E1C18B0031420C /* CFNetwork.framework */,
 				7E70936F18E1B9DC0031420C /* Foundation.framework */,
 				7E70937D18E1B9DC0031420C /* XCTest.framework */,
 				7E70938018E1B9DC0031420C /* UIKit.framework */,
+				600138A8A2CC4C57BCD401DC /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,8 +203,27 @@
 		7E70937118E1B9DC0031420C /* AWELibrary */ = {
 			isa = PBXGroup;
 			children = (
-				7E70937418E1B9DC0031420C /* AWELibrary.h */,
-				7E70937618E1B9DC0031420C /* AWELibrary.m */,
+				7E7093E818E1CE550031420C /* ARCMSConfig.h */,
+				7E7093E918E1CE550031420C /* ARCMSConfig.m */,
+				7E70939518E1BBF40031420C /* AWEAttributeHash.h */,
+				7E70939618E1BBF40031420C /* AWEAttributeHash.m */,
+				7E70939718E1BBF40031420C /* AWEDateUtils.h */,
+				7E70939818E1BBF40031420C /* AWEDateUtils.m */,
+				7E70939918E1BBF40031420C /* AWEEntity.h */,
+				7E70939A18E1BBF40031420C /* AWEEntity.m */,
+				7E70939B18E1BBF40031420C /* AWEEntityManager.h */,
+				7E70939C18E1BBF40031420C /* AWEEntityManager.m */,
+				7E70939D18E1BBF40031420C /* AWEEntitySetProxy.h */,
+				7E70939E18E1BBF40031420C /* AWEEntitySetProxy.m */,
+				7E70939F18E1BBF40031420C /* AWEI18n.h */,
+				7E7093A018E1BBF40031420C /* AWEI18n.m */,
+				7E7093A118E1BBF40031420C /* AWELibrary-Prefix.pch */,
+				7E7093A418E1BBF40031420C /* AWELog.h */,
+				7E7093A518E1BBF40031420C /* AWELog.m */,
+				7E7093A618E1BBF40031420C /* AWEObservationManager.h */,
+				7E7093A718E1BBF40031420C /* AWEObservationManager.m */,
+				7E7093A818E1BBF40031420C /* AWETimeCorrection.h */,
+				7E7093A918E1BBF40031420C /* AWETimeCorrection.m */,
 				7E70937218E1B9DC0031420C /* Supporting Files */,
 			);
 			path = AWELibrary;
@@ -150,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E70938F18E1B9DC0031420C /* Build configuration list for PBXNativeTarget "AWELibrary" */;
 			buildPhases = (
+				54C9542573D140E8B8A61C3D /* Check Pods Manifest.lock */,
 				7E70936818E1B9DC0031420C /* Sources */,
 				7E70936918E1B9DC0031420C /* Frameworks */,
-				7E70936A18E1B9DC0031420C /* CopyFiles */,
+				7E70936A18E1B9DC0031420C /* Copy Files */,
+				29970F0FC4B54A3C8DB094A7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +318,7 @@
 			targets = (
 				7E70936B18E1B9DC0031420C /* AWELibrary */,
 				7E70937B18E1B9DC0031420C /* AWELibraryTests */,
+				7E7093FD18E1D9520031420C /* AWELibraryExport */,
 			);
 		};
 /* End PBXProject section */
@@ -219,12 +334,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29970F0FC4B54A3C8DB094A7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54C9542573D140E8B8A61C3D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E70941A18E2C3070031420C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ImageFilters ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target ImageFilters -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E70936818E1B9DC0031420C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E70937718E1B9DC0031420C /* AWELibrary.m in Sources */,
+				7E7093B318E1BBF40031420C /* AWETimeCorrection.m in Sources */,
+				7E7093AC18E1BBF40031420C /* AWEEntity.m in Sources */,
+				7E7093AB18E1BBF40031420C /* AWEDateUtils.m in Sources */,
+				7E7093AE18E1BBF40031420C /* AWEEntitySetProxy.m in Sources */,
+				7E7093B218E1BBF40031420C /* AWEObservationManager.m in Sources */,
+				7E7093B118E1BBF40031420C /* AWELog.m in Sources */,
+				7E7093AD18E1BBF40031420C /* AWEEntityManager.m in Sources */,
+				7E7093EA18E1CE550031420C /* ARCMSConfig.m in Sources */,
+				7E7093AF18E1BBF40031420C /* AWEI18n.m in Sources */,
+				7E7093AA18E1BBF40031420C /* AWEAttributeHash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +460,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -322,7 +497,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -330,11 +510,37 @@
 		};
 		7E70939018E1B9DC0031420C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11F6D3B3D58408F8905A1D8 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/AWELibrary.dst;
+				FRAMEWORK_SEARCH_PATHS = RestKit/Build;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWELibrary/AWELibrary-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					ARDemo/libs/vuforia/build/include,
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+					/usr/include/libxml2,
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					xcodebuild,
+					"-project",
+					RestKit/RestKit.xcodeproj,
+					"-target",
+					RestKit,
+					"-sdk",
+					iphonesimulator,
+					"-configuration",
+					Debug,
+					clean,
+					"build\n",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -342,11 +548,24 @@
 		};
 		7E70939118E1B9DC0031420C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11F6D3B3D58408F8905A1D8 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/AWELibrary.dst;
+				FRAMEWORK_SEARCH_PATHS = RestKit/Build;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWELibrary/AWELibrary-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					ARDemo/libs/vuforia/build/include,
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -390,6 +609,20 @@
 			};
 			name = Release;
 		};
+		7E7093FF18E1D9520031420C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E70940018E1D9520031420C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +642,7 @@
 				7E70939118E1B9DC0031420C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E70939218E1B9DC0031420C /* Build configuration list for PBXNativeTarget "AWELibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +651,16 @@
 				7E70939418E1B9DC0031420C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7093FE18E1D9520031420C /* Build configuration list for PBXAggregateTarget "AWELibraryExport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7093FF18E1D9520031420C /* Debug */,
+				7E70940018E1D9520031420C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
