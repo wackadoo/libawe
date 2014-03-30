@@ -11,7 +11,7 @@
 #import "AWEAttributeHash.h"
 #import "AWETimeCorrection.h"
 #import "AWEDateUtils.h"
-#import "ARCMSConfig.h"
+//#import "ARCMSConfig.h"
 #import "AWELog.h"
 
 
@@ -500,11 +500,12 @@
 {
   NSDate* responseDate = [[AWEDateUtil sharedDateUtil] dateFromResponseHeader:response];
   
+  /*
   if ([ARCMSConfig sharedConfig].timeDebugLevel >= DEBUG_LEVEL_DEBUG) {
     AWELog(@"DATE (string) IN RESPONSE %@", response);
     AWELog(@"DATE (parsed) in RESPONSE %@", responseDate);
     AWELog(@"DATE REQUEST STARTED LOCAL %@", started);
-  }
+  }*/
   
   [[AWETimeCorrection sharedTimeCorrection] registerMeasurementWithRemoteTime:responseDate localTime:started requestEndTime:ended];
 }

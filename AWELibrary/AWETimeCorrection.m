@@ -7,7 +7,7 @@
 //
 
 #import "AWETimeCorrection.h"
-#import "ARCMSConfig.h"
+//#import "ARCMSConfig.h"
 #import "AWELog.h"
 
 
@@ -61,6 +61,7 @@
   NSTimeInterval difference = [normalized timeIntervalSinceDate:remote];
   NSTimeInterval newLag     = self.lagEstimate == 0.0 ? difference : difference * (1.0-self.alpha) + self.lagEstimate * self.alpha; // jump, no estimate present (0.0 is highly unlikely after having the first estimate)
   
+  /*
   ARCMSConfig* config = [ARCMSConfig sharedConfig];
   
   if (config.timeDebugLevel >= DEBUG_LEVEL_DEBUG) {
@@ -75,7 +76,7 @@
           ((int)floor(fabs(newLag / (1000*60))))%60,
           ((int)floor(fabs(newLag / 1000)))%60,
           (int)((newLag - floor(newLag))*1000));
-  }
+  }*/
   self.lagEstimate = newLag;
 }
 

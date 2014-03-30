@@ -44,7 +44,6 @@
 		7E7093E118E1C1E50031420C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093DC18E1C1E50031420C /* QuartzCore.framework */; };
 		7E7093E218E1C1E50031420C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093DD18E1C1E50031420C /* Security.framework */; };
 		7E7093E318E1C1E50031420C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7093DE18E1C1E50031420C /* SystemConfiguration.framework */; };
-		7E7093EA18E1CE550031420C /* ARCMSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7093E918E1CE550031420C /* ARCMSConfig.m */; };
 		7E70940F18E1E9020031420C /* libPods-RestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70940E18E1E9020031420C /* libPods-RestKit.a */; };
 		7E70941118E1E9080031420C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70941018E1E9080031420C /* libPods.a */; };
 		7E70941518E2BFC90031420C /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E70941418E2BFC90031420C /* libPods-AFNetworking.a */; };
@@ -112,13 +111,11 @@
 		7E7093DC18E1C1E50031420C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7E7093DD18E1C1E50031420C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7E7093DE18E1C1E50031420C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		7E7093E818E1CE550031420C /* ARCMSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCMSConfig.h; sourceTree = "<group>"; };
-		7E7093E918E1CE550031420C /* ARCMSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCMSConfig.m; sourceTree = "<group>"; };
-		7E70940E18E1E9020031420C /* libPods-RestKit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-RestKit.a"; path = "Pods/build/Release-iphoneos/libPods-RestKit.a"; sourceTree = "<group>"; };
-		7E70941018E1E9080031420C /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		7E70941418E2BFC90031420C /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
-		7E70941618E2BFCE0031420C /* libPods-SOCKit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-SOCKit.a"; path = "Pods/build/Debug-iphoneos/libPods-SOCKit.a"; sourceTree = "<group>"; };
-		7E70941818E2BFD50031420C /* libPods-TransitionKit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-TransitionKit.a"; path = "Pods/build/Debug-iphoneos/libPods-TransitionKit.a"; sourceTree = "<group>"; };
+		7E70940E18E1E9020031420C /* libPods-RestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-RestKit.a"; path = "Pods/build/Release-iphoneos/libPods-RestKit.a"; sourceTree = "<group>"; };
+		7E70941018E1E9080031420C /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		7E70941418E2BFC90031420C /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		7E70941618E2BFCE0031420C /* libPods-SOCKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SOCKit.a"; path = "Pods/build/Debug-iphoneos/libPods-SOCKit.a"; sourceTree = "<group>"; };
+		7E70941818E2BFD50031420C /* libPods-TransitionKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TransitionKit.a"; path = "Pods/build/Debug-iphoneos/libPods-TransitionKit.a"; sourceTree = "<group>"; };
 		F11F6D3B3D58408F8905A1D8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,8 +200,6 @@
 		7E70937118E1B9DC0031420C /* AWELibrary */ = {
 			isa = PBXGroup;
 			children = (
-				7E7093E818E1CE550031420C /* ARCMSConfig.h */,
-				7E7093E918E1CE550031420C /* ARCMSConfig.m */,
 				7E70939518E1BBF40031420C /* AWEAttributeHash.h */,
 				7E70939618E1BBF40031420C /* AWEAttributeHash.m */,
 				7E70939718E1BBF40031420C /* AWEDateUtils.h */,
@@ -392,7 +387,6 @@
 				7E7093B218E1BBF40031420C /* AWEObservationManager.m in Sources */,
 				7E7093B118E1BBF40031420C /* AWELog.m in Sources */,
 				7E7093AD18E1BBF40031420C /* AWEEntityManager.m in Sources */,
-				7E7093EA18E1CE550031420C /* ARCMSConfig.m in Sources */,
 				7E7093AF18E1BBF40031420C /* AWEI18n.m in Sources */,
 				7E7093AA18E1BBF40031420C /* AWEAttributeHash.m in Sources */,
 			);
