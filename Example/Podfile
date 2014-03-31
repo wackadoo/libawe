@@ -1,0 +1,7 @@
+pod "AWELibrary", :path => "../AWELibrary.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
