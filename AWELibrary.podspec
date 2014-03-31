@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
   
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
+  s.public_header_files = 'Classes/ios/*.h'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
   # s.dependency 'JSONKit', '~> 1.4'
+  s.dependency 'RestKit', '~>  0.20.0'
 end
