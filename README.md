@@ -24,3 +24,8 @@ Kevin Steinle, Kevin@5dlab.com
 
 AWELibrary is available under the MIT license. See the LICENSE file for more info.
 
+=======
+libawe
+======
+
+Client-Side library for the Augmented World Engine
