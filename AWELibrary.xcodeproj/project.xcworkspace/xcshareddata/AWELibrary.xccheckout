@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F332B838-20C6-46C1-95CD-15ABE7CC72E4</string>
+	<string>B47BF882-CD65-4128-94ED-2155471F9519</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AWELibrary</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/wackadoo/libawe.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AWELibrary.xcodeproj/project.xcworkspace</string>
+	<string>AWELibrary/AWELibrary.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DB32653A-603A-4AB9-ADF8-D30C2F28CD65</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/wackadoo/libawe.git</string>
